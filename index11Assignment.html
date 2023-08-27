@@ -1,0 +1,42 @@
+<!--Zeke 2023-->
+<!--TIC TAC TOE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="index11Assignment_Styles.css"> <!--Linking bootstrap CSS stylesheet to html file-->
+</head>
+<body>
+    <section>
+        <div>
+            <h1 class="heading-id" id="headingId">Tic Tac Toe</h1>
+        </div>
+        <div class="heading-info" id="headingInfo">
+            <div class="heading-info-text" id="headingInfoText"></div>
+        </div>
+    
+        <div class="board" id="board">
+            <div data-cell class="cell"></div>
+            <div data-cell class="cell"></div>
+            <div data-cell class="cell"></div>
+            <div data-cell class="cell"></div>
+            <div data-cell class="cell"></div>
+            <div data-cell class="cell"></div>
+            <div data-cell class="cell"></div>
+            <div data-cell class="cell"></div>
+            <div data-cell class="cell"></div>
+        </div>
+        <div class="winning-message" id="winningMessage">
+            <div id="winningMessageText"></div>
+            <button id="restartButton">Restart</button>
+        </div>  
+    </section>
+
+    <script src="index11Assignment.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
